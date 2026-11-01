@@ -1,0 +1,108 @@
+body {
+    background-color: #FFFFFF;
+    color: #003057; /* Set text color to dark blue for contrast */
+    font-family: Arial, sans-serif;
+    line-height: 1.6; /* Set line height for better readability */
+}
+
+header, nav, main, footer {
+    text-align: center; 
+}
+
+/* Navigation bar styles */
+nav a {
+    display: inline-block;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #fff;
+    background-color: #173f73;
+    font-size: 2rem;
+    border-bottom: 2px solid orange;
+}
+
+/* Class to make the current page navigation link stand out */
+nav a.current {
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+    font-weight: bold;
+}
+
+main {
+    display: flex; /* Use Flexbox for layout */
+    justify-content: center; /* Center the items horizontally */
+    gap: 2rem;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    margin: 2rem;
+    text-align: center;
+}
+
+header {
+    background-color: #003057; /* Dark blue background */
+    color: #FFFFFF; /* White text */
+}
+
+footer {
+    color:#84754D;
+    font-size: 0.8rem;
+}
+
+#about-main {
+    display: block; /* Override the flex display for the about page */
+    margin: 0 auto; /* Center the content horizontally */
+}
+
+#table-header {
+    background-color:#003057;
+    color: #FFFFFF;
+}
+
+
+/* About Table Styles */
+table {
+    border-collapse: collapse; /* Collapse borders into a single border */
+    margin: 0 auto 2rem;
+    margin-bottom: 2rem;
+    width: 75%
+}
+
+th, td {
+    border: 1px solid #9aafc8;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+.table-row-beginner td {
+    background-color: #dbe4f0; /* Light blue for beginner level */
+}
+
+.table-row-novice td {
+    background-color: #dfcb97; /* gold for novice level */
+}
+
+iframe {
+    display: block;
+    width: min(100%, 40rem);
+    min-height: 40rem;
+    margin: 0 auto;
+    border: 1px solid #dbe4f0;
+}
+
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+.logo {
+    width: 20rem;
+    height: auto;
+}
+
+ul {
+    list-style-position: inside;
+}
