@@ -50,6 +50,7 @@ header, nav, main, footer {
 #medium {
     width: 30rem;
     height: auto;
+
 }
 
 .image-container {
@@ -59,7 +60,8 @@ header, nav, main, footer {
 }
 
 .image-container a {
-    margin-top: 8px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     font-size: 14px;
     color: #D6D6D6;
     font-style: italic;
@@ -131,7 +133,8 @@ a {
     display: block;
     width: 100%;
     overflow: auto;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .next-button-first-page {
@@ -142,3 +145,7 @@ a {
     margin-right: 40%;
 }
 
+caption {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
