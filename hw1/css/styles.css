@@ -1,6 +1,144 @@
+header {
+    background-color: #352555; 
+    color: #FFFFFF; /* White text */
+}
+
 body {
-    background-color: #000000;
-    color: #FFFFFF; /* Set text color to dark blue for contrast */
+    background-color: #1C1C1C ;
+    color: #FFFFFF; /* Set text color to white for contrast */
     font-family: Arial, sans-serif;
     line-height: 1.6; /* Set line height for better readability */
 }
+
+footer {
+    color:#84754D;
+    font-size: 0.8rem;
+}
+
+.logo {
+    width: 20rem;
+    height: auto;
+}
+
+nav a {
+    display: inline-block;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #fff;
+    background-color: #C9B6E4;
+    transition: all 0.3s ease; 
+}
+
+/* Class to make the current page navigation link stand out */
+nav a.current {
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+    font-weight: bold;
+}
+
+header, nav, main, footer {
+    text-align: center; 
+}
+
+#medium {
+    width: 30rem;
+    height: auto;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-container a {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #D6D6D6;
+    font-style: italic;
+}
+
+table {
+    border-collapse: collapse; /* Collapse borders into a single border */
+    margin: 0 auto 2rem;
+    margin-bottom: 2rem;
+    width: 75%
+}
+
+th, td {
+    border: 1px solid #FFF;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+.example {
+    width: 30rem;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+a:hover {
+    background-color: #9B89B5;
+    transition: background-color 0.3s ease;
+}
+
+a {
+    color: #D6D6D6;
+}
+
+.ethical-ux {
+    width: 40rem;
+}
+
+.impact {
+    width: 20rem;
+}
+
+.next-button, .previous-button , .next-button-first-page, .previous-button-last-page {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #352555; /* Button color */
+    color: white; /* Text color */
+    text-decoration: none; 
+    border-radius: 5px; 
+    font-weight: bold;
+    text-align: center;
+  }
+
+.next-button:hover, .previous-button:hover, .next-button-first-page:hover, .previous-button-last-page:hover {
+    background-color: #C9B6E4; 
+  }
+
+.next-button {
+    margin-left: 0%;
+}
+
+.previous-button {
+    float: left;
+    margin-left: 30%;
+}
+
+.button-container {
+    display: block;
+    width: 100%;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+.next-button-first-page {
+    margin-left: 40%;
+}
+
+.previous-button-last-page {
+    margin-right: 40%;
+}
+

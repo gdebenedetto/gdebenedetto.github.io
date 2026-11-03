@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HW1 Dark Patterns in UX Design</title>
+
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 <header>
     <h1>Dark Patterns in UX Design</h1>
     <nav>
-        <a href="index.html" class="current">Introduction</a>
-        <a href="examples.html">Examples</a>
+        <a href="index.html" >Introduction</a>
+        <a href="examples.html" class="current">Examples</a>
         <a href="impact.html">Impact</a>
         <a href="ethical-ux.html">Ethical UX</a>
     </nav>
@@ -18,7 +20,52 @@
 
 <main>
     <h2>Examples</h2>
-    <p>This is my topic.</p>
+    <p>Here are some common examples of dark patterns in UX design, courtesy of the UX Design Institute:</p>
+    <a href="https://www.uxdesigninstitute.com/blog/what-are-dark-patterns-in-ux/#the-12-types-of-dark-patterns">
+        https://www.uxdesigninstitute.com/blog/what-are-dark-patterns-in-ux/#the-12-types-of-dark-patterns
+    </a>
+    <table>
+        <caption>Common Dark Patterns</caption>
+        <thead>
+            <tr id="table-header">
+                <th scope="col">Dark Pattern</th>
+                <th scope="col">Description</th>
+                <th scope="col">Example</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="table-row-roach-motel">
+                <td>Roach Motel</td>
+                <td>Making it easy to sign up for a service or subscription but confusing or difficult to cancel.</td>
+                <td><figure><img src="img/roach-motel.jpg" class="example" alt="Roach Motel Example"></figure></td>
+            </tr>
+            <tr class="table-row-trick-questions">
+                <td>Trick Questions</td>
+                <td>Using subtle language and tricks to manipulate users into making unintended choices.</td>   
+                <td><figure><img src="img/trick-question.jpg" class="example" alt="Trick Questions Example"></figure></td>
+            </tr>
+            <tr class="table-row-misdirection">
+                <td>Misdirection</td>
+                <td>Distracting users from the actual information or options available to them, such as by pre-selecting options and saying it's "for your convenience".</td>   
+                <td><figure><img src="img/misdirection.png" class="example" alt="Misdirection Example"></figure></td>
+            </tr>
+            <tr class="table-row-forced-continuity">
+                <td>Forced Continuity</td>
+                <td>Free trials that automatically renew and charge the user.</td>
+                <td><figure><img src="img/forced-continuity.png" class="example" alt="Forced Continuity Example"></figure></td>
+            </tr>
+            <tr class="table-row-disguised-ads">
+                <td>Disguised Ads</td>
+                <td>When ads that are often malicious are disguised as legitimate UX elements such as a download button.</td>
+                <td><figure><img src="img/disguised-ads.png" class="example" alt="Disguised Ads Example"></figure></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class ="button-container">
+        <a href="index.html" class="previous-button">&larr; Previous Page</a>
+        <a href="impact.html" class="next-button">Next Page &rarr;</a>
+    </div>
 </main>
 
 <footer>
