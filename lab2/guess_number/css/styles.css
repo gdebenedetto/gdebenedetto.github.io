@@ -1,0 +1,64 @@
+header, main, footer, #main {
+    margin: 2rem;
+    text-align: center;
+}
+
+header {
+    background: linear-gradient(
+        135deg,
+        rgba(20, 20, 20, 0.90),
+        rgba(65, 65, 65, 0.80)
+    );
+
+    color: #fff;
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 20px;
+    backdrop-filter: blur(8px);
+}
+
+body {
+    background-image: url('../img/guess_the_number.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer {
+    background: linear-gradient(
+        135deg,
+        rgba(20, 20, 20, 0.90),
+        rgba(65, 65, 65, 0.80)
+    );
+
+    color: #fff;
+    padding: 2rem;
+    margin: 2rem;
+    backdrop-filter: blur(8px);
+}
+
+#main {
+    background-color: rgba(0, 0, 0, 0.70);
+    color:#fff;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    backdrop-filter: blur(5px);
+}
+
+#gameImage {
+    margin: 2rem auto;
+    justify-content: center;
+}
+
+#guessBtn, #resetBtn {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+.logo {
+    width: 20rem;
+    height: auto;
+}

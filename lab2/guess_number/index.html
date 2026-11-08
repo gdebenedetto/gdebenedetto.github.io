@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Guess a Number </title>
+        <meta charset="utf-8">
+
+            <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+
+        <header>
+            <h1>Guess the Number!</h1>
+            <h2>Guess a number between 1 and 99 in seven attempts!</h2>
+        </header>
+        <br>
+        <div id="main">
+          <strong>Enter a guess: </strong>
+          <input type="text" id="playerGuess" size="5">         
+          <button id="guessBtn"> Guess </button> <br>
+          <button id="resetBtn"> Reset </button> 
+          <div id="feedback"></div>
+          <div id="attemptsLeft">Attempts remaining: 7 
+            <span id="attempts"></span>  
+        </div>
+          <div> Previous Guesses:
+            <span id="guesses"></span>
+          </div>
+          <br>
+            <div id="Wins">Total Wins: 0</div>
+            <div id="Losses">Total Losses: 0</div>
+        </div>
+        <br>
+
+   
+        
+        <script src="js/script.js"></script> 
+    </body>
+
+    <footer>
+    <p>&copy; 2026 Grayson Debenedetto. All rights reserved.</p>
+    <p>This site is for academic purposes only.</p>
+    <p>CST 336 Internet Programming.</p>
+    <figure>
+        <img src="img/csumb_logo.jpg" alt="CSUMB Logo" class="logo">
+    </figure>
+    </footer>
+</html>
