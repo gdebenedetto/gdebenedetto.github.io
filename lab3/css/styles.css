@@ -1,0 +1,103 @@
+body {
+    background-color: #eef2f8;
+    margin: 0;
+    padding: 40px 15px;
+    color: #334155;
+}
+
+h1 {
+    text-align: center;
+    color: #1e3a5f;
+    margin-bottom: 25px;
+}
+
+form {
+    background-color: white;
+    max-width: 50rem;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 14px
+}
+
+button {
+    background-color: #1e3a5f;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #2563eb;
+}
+
+input:focus {
+    outline: none;
+    border-color: #3b82f6;
+}
+
+select:focus {
+    outline: none;
+    border-color: #3b82f6;
+}
+
+#usernameError {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#suggestedPassword {
+    color: #2563eb;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+
+#passwordError {
+    color: red;
+    font-size: 13px;
+}
+
+#city, #latitude, #longitude {
+    color: #1e3a5f;
+    font-weight: bold;
+}
+
+footer {
+    margin: 2rem;
+    color:#84754D;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.logo {
+    width: 20rem;
+    height: auto;
+}
+
+#password,
+#passwordAgain {
+    width: 20rem;
+    box-sizing: border-box;
+}
