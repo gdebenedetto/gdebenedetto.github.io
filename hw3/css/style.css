@@ -1,0 +1,161 @@
+#pokemonDisplay {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+}
+
+#pokemonDisplay.normal {
+    background-color: #A8A77A;
+}
+
+#pokemonDisplay.fire {
+    background-color: #EE8130;
+}
+
+#pokemonDisplay.water {
+    background-color: #6390F0;
+}
+
+#pokemonDisplay.electric {
+    background-color: #F7D02C;
+}
+
+#pokemonDisplay.grass {
+    background-color: #7AC74C;
+}
+
+
+#pokemonDisplay.ice {
+    background-color: #96D9D6;
+}
+
+#pokemonDisplay.fighting {
+    background-color: #C22E28;
+}
+
+#pokemonDisplay.poison {
+    background-color: #A33EA1;
+}
+
+#pokemonDisplay.ground {
+    background-color: #E2BF65;
+}
+
+#pokemonDisplay.flying {
+    background-color: #A98FF3;
+}
+
+#pokemonDisplay.psychic {
+    background-color: #F95587;
+}
+
+#pokemonDisplay.bug {
+    background-color: #A6B91A;
+}
+
+#pokemonDisplay.rock {
+    background-color: #B6A136;
+}
+
+#pokemonDisplay.ghost {
+    background-color: #735797;
+}
+
+#pokemonDisplay.dragon {
+    background-color: #6F35FC;
+}
+
+#pokemonDisplay.dark {
+    background-color: #705746;
+}
+
+#pokemonDisplay.steel {
+    background-color: #B7B7CE;
+}
+
+#pokemonDisplay.fairy {
+    background-color: #D685AD;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f4f9;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+    background-image: url("../img/pokeballBackground.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #e3350d;
+    font-size: 36px;
+}
+
+p {
+    color: #333;
+    font-size: 25px;
+}
+
+form {
+    margin: 25px auto;
+}
+
+input {
+    padding: 12px;
+    width: 220px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #e3350d;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #b52a0a;
+}
+
+#pokemonDisplay {
+    background-color: white;
+    max-width: 50rem;
+    margin: 3rem auto;
+    padding: 3rem;
+    border-radius: 3rem;
+}
+
+#pokemonDisplay img {
+    width: 10rem;
+    height: 10rem;
+}
+
+#pokemonDisplay h2 {
+    color: #000;
+}
+
+#pokemonDisplay h3 {
+    color: #333;
+}
+
+footer {
+    padding: 2rem;
+    color:#84754D;
+    font-size: 0.8rem;
+}
+
+.logo {
+    width: 20rem;
+    height: auto;
+}
