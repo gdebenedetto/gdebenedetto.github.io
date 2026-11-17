@@ -149,10 +149,12 @@ button:hover {
     color: #333;
 }
 
-footer {
+footer p {
     padding: 2rem;
     color:#84754D;
-    font-size: 0.8rem;
+    margin: 0.2rem 0;
+    line-height: .2;
+    font-size: 20px
 }
 
 .logo {
